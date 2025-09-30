@@ -1,32 +1,52 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #e0f7fa;
-  color: #004d40;
+  background: #f0f4f8;
+  color: #333;
   margin: 0;
+  padding: 0;
+}
+
+.spiritual-header {
+  background: #e8f5e9;
+  text-align: center;
   padding: 20px;
+  border-bottom: 2px solid #a5d6a7;
+}
+
+.spiritual-header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #2e7d32;
 }
 
 .container {
   max-width: 600px;
-  margin: auto;
+  margin: 20px auto;
   background: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-h1 {
-  text-align: center;
-  color: #00796b;
-}
-
 button {
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 10px 20px;
-  background: #00796b;
+  background: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.festive-footer {
+  background: #fff3e0;
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #ffcc80;
+  font-style: italic;
 }
