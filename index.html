@@ -3,24 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bio Data - Vinod</title>
+  <title>Vinod's Bio Data</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="spiritual-header">
+    <h1>ॐ नमः शिवाय</h1>
+    <p>Vinod's Bio Data – Blending Clarity with Spirit</p>
+  </header>
+
   <div class="container">
-    <h1>Vinod's Bio Data</h1>
-    <div id="bio">
-      <p><strong>Name:</strong> Vinod</p>
-      <p><strong>Skills:</strong> Python, FastAPI, Docker, Excel macros, scripting</p>
-      <p><strong>Interests:</strong> Meditation, web hosting, spiritual design</p>
-      <p><strong>Philosophy:</strong> Blending technical clarity with spiritual depth</p>
-    </div>
-    <button onclick="toggleDetails()">Toggle More Info</button>
-    <div id="more" style="display:none;">
+    <p><strong>Name:</strong> Vinod</p>
+    <p><strong>Skills:</strong> Python, FastAPI, Docker, Excel macros, scripting</p>
+    <p><strong>Interests:</strong> Meditation, web hosting, spiritual design</p>
+    <p><strong>Philosophy:</strong> Blending technical clarity with spiritual depth</p>
+
+    <button onclick="toggleSection('goals')">Show Goals</button>
+    <div id="goals" class="hidden">
       <p><strong>Short-Term Goals:</strong> Migrating website, refining mantra cards</p>
+    </div>
+
+    <button onclick="toggleSection('character')">Show Character</button>
+    <div id="character" class="hidden">
       <p><strong>Character:</strong> Thoughtful, methodical, spiritually curious</p>
     </div>
+
+    <button onclick="toggleSection('interests')">Show More Interests</button>
+    <div id="interests" class="hidden">
+      <p>Exploring spiritual motifs, ritual tracking, and family celebrations</p>
+    </div>
   </div>
+
+  <footer class="festive-footer">
+    <p>May your path be clear, your code bug-free, and your spirit joyful 🪔</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
